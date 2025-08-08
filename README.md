@@ -1,34 +1,73 @@
-# sample-thesis-project
-This repository is an example for the structure and content that a CLTL thesis project may have. 
+# Exploring Ensemble Strategies for Misogynous and Sexist Meme Detection
+This repository contains the code for building and evaluating ensemble strategies on two misogynous and sexist meme datasets. The datasets used in this project were the MAMI (Fersini et al., 2022) and EXIST 2024 (Plaza et al., 2024), which not be uploaded due to privacy constraints. However, they are are available for research upon request to their respective authors: https://github.com/MIND-Lab/SemEval2022-Task-5-Multimedia-Automatic-Misogyny-Identification-MAMI- and https://nlp.uned.es/exist2024/.
 
 # Overview
-This repository assumes a Python project, with an Open License (MIT style). If any of these aspects are different from your project please make sure to change those accordingly.
-Please feel free to clone/fork this repository and use it as a template for your thesis.
+This repository contains the code related to the experiments conducted for the research master's thesis project Exploring Ensemble Strategies for Misogynous and Sexist Meme Detection. This thesis was carried out by Ariana Britez with the supervision of dr. Ilia Markov.
 
 # Project structure
 
 ```
-thesis-project
-└───data
-│       │   sample_data.csv 
-└───results
-│       │   sample_results.png 
-└───src
-│   └───utils
-│       │   plotting.py
-│   │   main.py
-│   .gitignore
-│   LICENSE
-│   README.md
-│   requirements.tx
+.
+├── LICENSE
+├── README.md
+├── data
+├── datasets
+├── error_analysis
+│   ├── confusion_matrices.ipynb
+│   ├── error_analysis.ipynb
+│   ├── pearson_coefficient.ipynb
+│   └── utils_error_analysis.py
+├── models
+│   ├── bert.ipynb
+│   ├── bert_swin.ipynb
+│   ├── bert_vit.ipynb
+│   ├── bertweet-large-sexism-detector.ipynb
+│   ├── crossdatasets_ensemble.ipynb
+│   ├── crossdatasets_roberta.ipynb
+│   ├── crossdatasets_roberta_swin.ipynb
+│   ├── crossdatasets_style-emo-svm.ipynb
+│   ├── evaluation
+│   │   ├── golds
+│   │   │   ├── EXIST2024
+│   │   │   └── MAMI
+│   │   ├── overlapping_classes
+│   │   │   ├── golds
+│   │   │   │   ├── EXIST2024
+│   │   │   │   └── MAMI
+│   │   │   └── predictions
+│   │   │       ├── EXIST2024
+│   │   │       └── MAMI
+│   │   └── predictions
+│   │       ├── EXIST2024
+│   │       └── MAMI
+│   ├── evaluation.py
+│   ├── in_domain
+│   │   └── EXIST2024
+│   │       └── flat
+│   │           └── multimodal
+│   ├── indomain_ensemble.ipynb
+│   ├── indomain_roberta.ipynb
+│   ├── indomain_roberta_swin.ipynb
+│   ├── indomain_style-emo-svm.ipynb
+│   ├── nrc-lexicon-en.txt
+│   ├── output
+│   └── utils_classification.py
+├── preprocessing
+│   ├── datasets
+│   │   ├── EXIST2024_test.json
+│   │   ├── EXIST2024_training.json
+│   │   ├── EXIST2025_test.json
+│   │   ├── EXIST2025_training.json
+│   │   ├── MAMI_test.json
+│   │   └── MAMI_training.json
+│   ├── dea.ipynb
+│   ├── gold_labels.ipynb
+│   ├── image_preprocessing.ipynb
+│   ├── preprocessing.ipynb
+│   ├── utils.py
+│   └── utils_dea.py
+└── requirements.txt
 ```
-
-# To Do
-Once you start, please go through the following steps to tailor this template to your project
-
-## Thesis report
-You may decide to upload your report here directly, or to simply add a reference to where the report is hosted (e.g. Overleaf)
-- [ ] Add a reference to the thesis report
 
 ## Data 
 To ensure reproducibility, Yu need to provide the data your project uses.
