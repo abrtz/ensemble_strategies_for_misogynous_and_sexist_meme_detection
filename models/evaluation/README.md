@@ -4,7 +4,7 @@ The gold labels from validation and test splits after stratified sampling are st
 This directory is organized as follows:
 
 ```
-.
+evaluation
 ├── golds
 │   ├── EXIST2024
 │   └── MAMI
