@@ -56,21 +56,6 @@ This repository contains the code related to the experiments conducted for the r
 └── requirements.txt
 ```
 
-## Data 
-To ensure reproducibility, Yu need to provide the data your project uses.
-- [ ] Add your data in the data folder
-
-Sometimes, sharing sharing data is not straightforward. For example, there may be restrictions regarding with whom or how you can share the data you have. Some other times, the data you are using is open and easily accessible from other sites, in which case you might want to point directly to the original source. Either way, if this is the case for you please 
-- [ ] Add the data folder to ``.gitignore`` in order to avoid commiting these files to Github. For this you can simply uncomment the last line in the ``.gitignore`` file  
-```
-# Tailored ignored files
-data/*
-```
-- [ ] Make sure to add a ``README.md`` file inside the data folder, where you explain in detail how to obtain and structure the data
-
-## README
-- [ ] Add instructions on how to set up the project, how to run your code and what to expect as an output.
-
 ## Requirements
 
 Experiments ran in Python 3.13.4. \
@@ -78,9 +63,6 @@ All required libraries and versions are provided in the requirements.txt file. R
 
 `pip install -r requirements.txt`
 
+## README
 
-
-
-
-
-
+A README is provided per subfolder with instructions on how to run the code.
