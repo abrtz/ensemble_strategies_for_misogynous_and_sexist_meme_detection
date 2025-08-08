@@ -11,7 +11,9 @@ This repository contains the code related to the experiments conducted for the r
 ├── LICENSE
 ├── README.md
 ├── data
+│   └── README.md
 ├── datasets
+│   └── README.md
 ├── error_analysis
 │   ├── confusion_matrices.ipynb
 │   ├── error_analysis.ipynb
@@ -27,6 +29,7 @@ This repository contains the code related to the experiments conducted for the r
 │   ├── crossdatasets_roberta_swin.ipynb
 │   ├── crossdatasets_style-emo-svm.ipynb
 │   ├── evaluation
+│   │   └── README.md
 │   ├── evaluation.py
 │   ├── indomain_ensemble.ipynb
 │   ├── indomain_roberta.ipynb
@@ -34,6 +37,7 @@ This repository contains the code related to the experiments conducted for the r
 │   ├── indomain_style-emo-svm.ipynb
 │   ├── nrc-lexicon-en.txt
 │   ├── output
+│   │   └── README.md
 │   └── utils_classification.py
 ├── preprocessing
 │   ├── datasets
@@ -69,7 +73,7 @@ data/*
 
 ## Requirements
 
-Experiments ran in Python 3.13.4. \\
+Experiments ran in Python 3.13.4. \
 All required libraries and versions are provided in the requirements.txt file. Run the following command to install them.
 
 `pip install -r requirements.txt`
