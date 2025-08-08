@@ -58,7 +58,7 @@ This repository contains the code related to the experiments conducted for the r
 
 ## Requirements
 
-Experiments ran in Python 3.13.4. \
+Local experiments were run in Python 3.13.4. \
 All required libraries and versions are provided in the requirements.txt file. Run the following command to install them.
 
 `pip install -r requirements.txt`
