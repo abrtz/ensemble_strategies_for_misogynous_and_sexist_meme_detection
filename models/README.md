@@ -48,3 +48,8 @@ The predictions from the component models were then combined in a hard majority 
 ```
 
 The final predictions of each component model as well as the ensembles were saved on the `output` directory.
+
+```
+├── output
+│   └── README.md
+```
