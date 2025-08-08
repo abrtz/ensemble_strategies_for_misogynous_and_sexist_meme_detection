@@ -15,7 +15,7 @@ The multimodal models combining Swin Trasnformer V2 (Liu et al., 2022). and ViT 
 RoBERTa as well as the multimodal model combining Swin Transformer V2 and RoBERTa were then implemented across all tasks on the two datasets used in this thesis: binary and multi-label classification.
 This was done both in-domain and in cross-dataset evaluation setups.
 
-The notebook with these models were run on Google Colab.
+The notebook with these models were run on Google Colab. All necessary requirements are listed in each notebook.
 
 ```
 ├── bert.ipynb
@@ -46,3 +46,5 @@ The predictions from the component models were then combined in a hard majority 
 ├── indomain_ensemble.ipynb
 ├── crossdatasets_ensemble.ipynb
 ```
+
+The final predictions of each component model as well as the ensembles were saved on the `output` directory.
