@@ -27,19 +27,6 @@ This repository contains the code related to the experiments conducted for the r
 │   ├── crossdatasets_roberta_swin.ipynb
 │   ├── crossdatasets_style-emo-svm.ipynb
 │   ├── evaluation
-│   │   ├── golds
-│   │   │   ├── EXIST2024
-│   │   │   └── MAMI
-│   │   ├── overlapping_classes
-│   │   │   ├── golds
-│   │   │   │   ├── EXIST2024
-│   │   │   │   └── MAMI
-│   │   │   └── predictions
-│   │   │       ├── EXIST2024
-│   │   │       └── MAMI
-│   │   └── predictions
-│   │       ├── EXIST2024
-│   │       └── MAMI
 │   ├── evaluation.py
 │   ├── in_domain
 │   │   └── EXIST2024
