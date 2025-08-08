@@ -1,5 +1,5 @@
 # Exploring Ensemble Strategies for Misogynous and Sexist Meme Detection
-This repository contains the code for building and evaluating ensemble strategies on two misogynous and sexist meme datasets. The datasets used in this project were the MAMI (Fersini et al., 2022) and EXIST 2024 (Plaza et al., 2024), which not be uploaded due to privacy constraints. However, they are are available for research upon request to their respective authors: https://github.com/MIND-Lab/SemEval2022-Task-5-Multimedia-Automatic-Misogyny-Identification-MAMI- and https://nlp.uned.es/exist2024/.
+This repository contains the code for building and evaluating ensemble strategies on two misogynous and sexist meme datasets. The datasets used in this project were the MAMI (Fersini et al., 2022) and EXIST 2024 (Plaza et al., 2024), which cannot be uploaded due to privacy constraints. However, their authors made them available for research upon request: https://github.com/MIND-Lab/SemEval2022-Task-5-Multimedia-Automatic-Misogyny-Identification-MAMI- and https://nlp.uned.es/exist2024/.
 
 # Overview
 This repository contains the code related to the experiments conducted for the research master's thesis project Exploring Ensemble Strategies for Misogynous and Sexist Meme Detection. This thesis was carried out by Ariana Britez with the supervision of dr. Ilia Markov.
@@ -40,13 +40,8 @@ This repository contains the code related to the experiments conducted for the r
 │   │   └── README.md
 │   └── utils_classification.py
 ├── preprocessing
+│   ├── README.md
 │   ├── datasets
-│   │   ├── EXIST2024_test.json
-│   │   ├── EXIST2024_training.json
-│   │   ├── EXIST2025_test.json
-│   │   ├── EXIST2025_training.json
-│   │   ├── MAMI_test.json
-│   │   └── MAMI_training.json
 │   ├── dea.ipynb
 │   ├── gold_labels.ipynb
 │   ├── image_preprocessing.ipynb
