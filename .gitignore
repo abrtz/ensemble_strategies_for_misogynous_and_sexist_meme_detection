@@ -130,6 +130,7 @@ dmypy.json
 
 # Mac files
 .idea/
+.DS_Store
 
 # Tailored ignored files
 #data/*
