@@ -67,6 +67,14 @@ data/*
 ## README
 - [ ] Add instructions on how to set up the project, how to run your code and what to expect as an output.
 
+## Requirements
+
+Experiments ran in Python 3.13.4. \\
+All required libraries and versions are provided in the requirements.txt file. Run the following command to install them.
+
+`pip install -r requirements.txt`
+
+
 
 
 
