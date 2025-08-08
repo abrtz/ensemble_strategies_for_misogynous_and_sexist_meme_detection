@@ -1,0 +1,1 @@
+The files are image captions and after the gold labels were added next to the meme text and meme paths were added into this repository. They were later moved into their final destination in the `/data` directory after stratified sampling.
