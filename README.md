@@ -28,10 +28,6 @@ This repository contains the code related to the experiments conducted for the r
 │   ├── crossdatasets_style-emo-svm.ipynb
 │   ├── evaluation
 │   ├── evaluation.py
-│   ├── in_domain
-│   │   └── EXIST2024
-│   │       └── flat
-│   │           └── multimodal
 │   ├── indomain_ensemble.ipynb
 │   ├── indomain_roberta.ipynb
 │   ├── indomain_roberta_swin.ipynb
