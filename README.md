@@ -4,6 +4,11 @@ This repository contains the code for building and evaluating ensemble strategie
 # Overview
 This repository contains the code related to the experiments conducted for the research master's thesis project Exploring Ensemble Strategies for Misogynous and Sexist Meme Detection. This thesis was carried out by Ariana Britez with the supervision of dr. Ilia Markov.
 
+Overall architecture of implemented ensemble approach:
+![Ensemble architecture](ensemble-overview-thesis.png)
+The multimodal architecture (upper part of the figure) is based on Wang and Markov (2024c). (Image author: Ariana Britez)
+
+
 # Project structure
 
 ```
